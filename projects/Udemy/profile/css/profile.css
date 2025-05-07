@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+}
+#page_cover{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #dbffc7;
+    background: -webkit-linear-gradient(to right, #dafdf2, #d7f1c9); 
+    background: linear-gradient(to right, #d7f7ed, #d1f6be);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+   
+ 
+}
+#profile_box{
+    width:300px;
+    height:auto;
+    background-color: white;
+    box-shadow: 0px 0px 5px 10px #ccc;
+    border-radius: 20px;
+    padding: 50px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#profile_pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px #ccc;
+    overflow: hidden;
+}
+#profile_icon{
+    font-size: 120px;
+    color: #ccc;
+    position: absolute;
+    margin-left: 20px;
+
+}
+#profile_upload{
+    height: 140px;
+    width: 140px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    opacity: 0;
+    cursor: pointer;
+    
+}#upp{
+    font-size: 23px;
+    color: grey;
+    margin:20px 0px;
+}
+#profile_name{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#next{
+    width: 100%;
+    padding:10px;
+    border: none;
+    font-size: 16px;
+    color: white;;
+    background: #a8ff78;  
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  
+    background: linear-gradient(to right, #78ffd6, #a8ff78); 
+    cursor: pointer;
+    margin-top: 20px;
+    display: none;
+}
+body{
+    background: #a8ff78;
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  
+    background: linear-gradient(to right, #78ffd6, #a8ff78); 
+}
+#profile_header{
+    width: 100%;
+    height: 150px;
+    background-image: url("../images/bg.jpeg");
+    background-size: cover;
+    background-position: bottom;
+}
+#profile_picture{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px #ccc;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%);
+}
+#profile_username{
+    text-align: center;
+    margin-top: 90px;
+    font-family: "Ubuntu", sans-serif;
+    margin-bottom: 20px;
+}
+#app{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+
+}
+@media(max-width:576px)
+{
+
+#app{
+    flex-direction: column;
+    height: 100%;
+    gap:20px
+    
+}
+
+
+
+
+
+
+
+}
+#contact,#player,#logout{
+width: 180px;
+height: 150px;
+background-color: white;
+border-radius: 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+#contact:hover,#player:hover,#logout:hover{
+    width: 200px;
+    height: 170px;
+    box-shadow: 0px 0px 15px #ccc;
+    transition: 0.5s ease;
+    cursor: pointer;
+    
+}
+#contact i,#player i,#logout i{
+    font-size: 40px;
+    color: green;
+
+}
+#contact p,#player p,#logout p{
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
+#profile_footer{
+    width: 100%;
+    height: 70px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#profile_footer p {
+    color: white;
+    font-size: 20px;
+}

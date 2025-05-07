@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+html,body{
+    height: 1000px;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+}
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+.left{
+    /* background-color: crimson; */
+    height: 100%;
+    width: 50%;
+    padding: 5vw 3vw;
+    
+}
+.left h1{
+    font-size: 4vw;
+    line-height: 4vw;
+}
+.left span{
+    color:#38908E ;
+}
+
+.left ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: url('../img/list-pic.png');
+    font-family:sans-serif ;
+    font-weight: 600;
+
+}
+.left .fir-ul{
+    display:inline-block;
+    /* background-color: aqua; */
+    margin: 5vw 1vw;
+    font-size: 2vw;
+    list-style-position: inside;
+
+}
+.left .pic-1{
+    width: 18%;
+    height: 25%;
+    margin: 0vw 4vw ;
+}
+.left .pic-2{
+    width: 25%;
+    height: 25%;
+    margin: 0vw 5vw;
+}
+
+.left  .sec-ul{
+    display: inline-flex;
+    flex-direction: column;
+    float: right;
+    /* background-color: chartreuse; */
+    margin: 1vw 0vw;
+    font-size: 2vw;
+    list-style-position: inside;
+}
+.right{
+    /* background-color: cornflowerblue; */
+    height: 100%;
+    width: 50%;
+}
+.right .right-pic{
+    width: 100%;
+    height: 100%;
+}

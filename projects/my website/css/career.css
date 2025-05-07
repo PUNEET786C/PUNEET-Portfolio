@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.content{
+    height: 100%;
+    width: 100%;
+    display:inline-block;
+    position: relative;
+    padding: 3vw 0vw;
+}
+.content h1{
+    font-size: 4vw;
+    margin: 2vw 3vw;
+
+
+}
+.content .para{
+    font-size: 1.5vw;
+    width: 80vw;
+    margin: 3vw 3vw;
+    line-height: 2.5vw;
+
+}
+span{
+    color:#D1D1C9;
+}
+.content .examples{
+ width: 100%;
+ height: 100%;
+ display: inline-flex;
+
+}
+.title h2{
+    display: inline-flex;
+    margin: 0vw 12.9vw;    
+}
+
+.sales{
+  width: 15vw;
+  height: 1vw;
+  margin: 0vw 1vw;
+}
+.tech{
+    width: 15vw;
+    height: 1vw;
+    margin: 0vw 1vw;
+}
+.corporate{
+    width: 15vw;
+    height: 1vw;
+    margin: 0vw 1vw;
+}
+.examples .example-pic{
+    margin: 3vw 3.6vw;
+    width: 80px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+   
+    <script>
+        function myFunction(x) {
+    x.style.background = "red";}
+    function text(x) {
+    x.style.color = "red";}
+    function order(){
+        document.getElementById("RS").innerHTML =('Order Placed');
+        window.alert('want to place order ?')
+    }
+    
+    
+    </script>
+</head>
+<body >
+    <header>
+        <nav> 
+            <h1 class="LOGO">SHAKE</h1>
+            <ul >
+                <a href="#"><li onclick="text(this)">HOME</li></a>
+                <a href="#"><li onclick="text(this)">SHAKE</li></a>
+                <a href="#"><li onclick="text(this)">MOJITO</li></a>
+                <a href="#"><li onclick="text(this)">ABOUT</li></a>
+                <a href="../hacker-login-form/src/index.html" target="_blank"><button class="sign">SIGN IN</button></a>
+            </ul>
+            
+        </nav>
+    </header>
+    <section>
+
+        <h3>FRUIT</h3>
+        <h1>SHAKE</h1>
+        <h4>FRESH AND DELICIOUS SHAKE</h4>
+        <button class="order" onfocus="myFunction(this)" > ORDER NOW</button> 
+        <button class="order2" onfocus="myFunction(this)" >MAIN MENU</button>
+       
+    </section>
+ <img src="../pngtree-blender-juicing-fruit-png-image_13373397.png" width="400px" height="500px" class="blender" >
+ <aside>
+ <h1>ONLY</h1>
+ <button id="RS" onclick="order()">50.RS</button>
+ <p><span>FREE</span> HOME DELIVERY</p>
+
+</aside>
+</body>
+</html>
