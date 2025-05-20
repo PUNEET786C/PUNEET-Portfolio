@@ -1,7 +1,8 @@
 $(function(){
     $('#menu').slicknav({
         label:"",
-        brand:"Puneet"
+        brand:"Puneet",
+        closeOnClick:"true"
     });
 });
 
