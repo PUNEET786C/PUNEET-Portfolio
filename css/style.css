@@ -102,11 +102,15 @@ body{
     font-size: 30px;
     
 }
-.row_one,.row_three,.row_four{
+.row_one,.row_two,.row_three,.row_four{
     width: 100%;
+    height: 100vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 20px;
     box-sizing: border-box;
+    
 }
 .col{
     width: 100%;
@@ -151,13 +155,7 @@ body{
    color: #2FB7FA;
    
 
-}
-.row_two{
-    width: 100%;
-    display: flex;
-   
-    
-}
+} 
 .col-left{
     width: 50%;
    
