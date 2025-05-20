@@ -122,20 +122,11 @@ body{
     box-sizing: border-box;
     
 }
-.row_one{
-    /* background-color: red; */
 
-}
-.row_two{
-    /* background-color: blue; */
-}
 .row_three{
-    /* background-color: yellow; */
     margin-top: 10vh;
 }
-.row_four{
-    /* background-color: green; */
-}
+
 .col{
     width: 100%;
     box-sizing: border-box;
